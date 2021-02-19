@@ -1,0 +1,74 @@
+{
+  "intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+         
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+         
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+         
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+         
+        },
+        {"tag": "Help me",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can tell you regarding all the courses and curriculum of Sacred Heart Univeristy ", "List of Courses","Regarding Professors"]
+         
+        },
+        {"tag": "Undergraduate Courses",
+         "patterns": ["what are all the undergraduation courses available?", "Best Undergrad courses", "List all Undergrad courses","Undergraduate Courses" ],
+         "responses": ["Computer Engineering","Computer Science,Computer Science & Information technology, chemical engineering, Civil engineering"]
+         
+ 
+        },
+        {"tag": "Graduate Courses",
+         "patterns": [ "What are all the graduate courses", "List of Graduate courses","Best grad courses","graduate courses"],
+         "responses": ["Masters in Computer Science,Masters in Health Informatics,Masters in cyber security,Masters in Digital Marketing"]
+         
+        },
+        {"tag": "Sports",
+         "patterns": ["List of Sports in the University", "Extra-Curicular activities","sports" ],
+         "responses": ["Soccer, Hockey, Basketball,Tennis"]
+         
+        },
+        
+        {"tag": "Student Life",
+         "patterns": ["How is the Student life", "student life" ],
+         "responses": ["Its lively when you are in the mood for energy and camaraderie and relaxing when you need to unwind. and there is always something to do. such as Performing ARts,Greek Life."]
+         
+        },
+        
+        {"tag": "Coronavirus",
+         "patterns": ["Coronavirus prevention planning", "Coronavirus" ],
+         "responses": ["We are committed in providing the Safe Learning experience during this pandemic", "We are having Testing, tracking and  treating tool, covid19 dashboard","Sacred Heart University is committed to the health and safety of our students, employees and community members. Check the topics below for timely updates and FAQs on everything from health and wellness to academics and residential life."]
+         
+        },
+        
+        {"tag": "Offices & Departments Directory",
+         "patterns": ["Offices & Departments Directory" ],
+         "responses": ["Academic Affairs & Office of the Provost,Accessibility Resource Center,Accounting and Information Systems,Accounts Payable,Admissions: Graduate International,Admissions: Transfer,Admissions: Undergraduate International"]
+         
+        },
+        {"tag": "International Students",
+         "patterns": ["International Students", "Information regarding International Students" ],
+         "responses": ["International Admissions,Immigration Support Services,English as a Second Language (ESL),Graduate & International Student Affairs,Diversity & Inclusion,Title IX"]
+         
+        },
+        {"tag": "News and Events",
+         "patterns": ["News and Events" ],
+         "responses": ["State’s Brewers Establish Scholarship at SHU for Black Students,Center for Nonprofits Receives $20,000 Grant to Expand Its Reach","Radio Station Gains Grant to Report on Affordable Housing,Panel Discusses Racism and Other Social Injustices"]
+         
+        }
+        
+   ]
+}
